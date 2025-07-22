@@ -4,6 +4,6 @@
 $fruits = array("Apple", "Banana", "Cherry");
 for ($i = 0; $i < count($fruits); $i++) {
     if (strlen($fruits[$i]) % 2 == 0) {
-        echo $fruits;
+        echo $fruits[$i];
     }
 }
