@@ -33,8 +33,7 @@ if (average($values) === 0) {
 // ↑確認用コード↑(編集しないこと)
 
 // ここにコードを追記
-$number = count($values);
 function average($values)
 {
-    return $values / $number;
+    return  array_sum($values) / count($values);
 }
